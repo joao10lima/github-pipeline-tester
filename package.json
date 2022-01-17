@@ -1,0 +1,18 @@
+{
+  "name": "github-pipeline-tester",
+  "version": "1.0.0",
+  "description": "GitHub Workflows Tester",
+  "main": "index.ts",
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "dotenv": "^14.1.0",
+    "octokit": "^1.7.1",
+    "recursive-readdir": "^2.2.2"
+  },
+  "devDependencies": {
+    "@octokit/graphql-schema": "^10.73.0",
+    "@types/recursive-readdir": "^2.2.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
